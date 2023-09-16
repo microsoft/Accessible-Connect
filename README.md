@@ -1,14 +1,43 @@
-# Project
+# Accessible Connect
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This repository contains code for Accessible Connect (also referred as 'Jod'), a Videoconferencing Platform for Mixed Hearing Groups.
 
-As the maintainer of this project, please make a few updates:
+## Folder Structure
+* `.vscode`: Extentsion settings for VSCode
+* [`client`](/client/README.md): Contains client code written in React
+* [`server`](/server/README.md): Server code written in node and express
+* [`shared`](/shared/README.md): Contains code and abstractions which are shared by both client and server
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+## Notes on Packages
+### communication-calling-1.7.0-beta.1.tgz
+* Screenshare and Transcriptipn (beta feature) works
+
+## Setup
+
+Jod uses Azure Communication Services that requires a call ID. Follow these steps to create one. 
+
+```
+cd experiment-setup
+npm i
+node start:dev
+```
+
+From root folder:
+```
+npm setup
+```
+
+To start client:
+```
+cd client
+npm start
+```
+
+To start server:
+```
+cd server
+npm start:dev
+```
 
 ## Contributing
 

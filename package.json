@@ -1,0 +1,12 @@
+{
+	"name": "accessible-teams",
+	"version": "1.0.0",
+	"description": "Accessible Teams Code",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"setup": "cd server && npm install && cd ../client && npm install && cd ..",
+		"build": "cd server && npm run build && cd ../client && npm run build && cd ..",
+		"package": "cd client && npm run package && cd .."
+	},
+	"author": "Anant Mittal"
+}

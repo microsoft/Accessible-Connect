@@ -1,0 +1,9 @@
+ACS_RESOURCE_CONNECTION_STRING="" # To connect to Azure Communication Services.
+ACS_ENDPOINT_URL="" # To connect to Azure Communication Services.
+APPLICATIONINSIGHTS_CONNECTION_STRING="" # To log telemetry to Azure.
+DB_CONNECTION_STRING="" # MongoDB Connection String.
+DB_NAME="" # MongoDB Database Name.
+PARTICIPANTS_COLLECTION_NAME="" # Participants Collection Name to Store Participant Details.
+MODERATORS_COLLECTION_NAME="" # Moderator Collection Name to Store Moderator Details.
+ALLOWED_ORIGIN=""
+PORT=

@@ -1,0 +1,14 @@
+{
+    "DELETE_EXISTING_APP_CONFIG": true,
+    "DELETE_DISCONNECTED_PARTICIPANT_USER_IDENTITIES": true,
+    "DELETE_DELETED_MODERATOR_USER_IDENTITIES": true,
+    "CREATE_NEW_APP_CONFIG": false,
+    "WORKSHOP_COUNT": 4,
+    "SESSION_COUNT": 3,
+    "CREATE_ADDITIONAL_SESSION_CONFIG": true,
+    "ADDITIONAL_SESSIONS": [
+        {
+            "sessionId": "Testing"
+        }
+    ]
+}

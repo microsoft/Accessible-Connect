@@ -1,0 +1,16 @@
+{
+	"search.exclude": {
+		"": true,
+		"**/bower_components": true,
+		"**/node_modules": true
+	},
+	"search.useIgnoreFiles": true,
+	"files.exclude": {
+		"**/build": true,
+		"**/node_modules": true
+	},
+	"files.associations": {
+		"*.env.development": "env",
+		"*.env.production": "env"
+	},
+}
