@@ -30,7 +30,7 @@
 		"mongodb-client-encryption": "^2.2.0",
 		"morgan": "~1.9.1",
 		"pino": "^8.7.0",
-		"socket.io": "^4.4.1",
+		"socket.io": "^4.7.2",
 		"uuid": "^8.3.2"
 	},
 	"devDependencies": {
