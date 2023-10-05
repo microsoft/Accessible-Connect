@@ -15,7 +15,7 @@
         "@azure/communication-common": "1.1.0",
         "@azure/communication-identity": "1.0.0",
         "@azure/core-http": "1.2.4",
-        "@craco/craco": "^6.4.5",
+        "@craco/craco": "^7.1.0",
         "@microsoft/applicationinsights-web": "^2.8.5",
         "@types/cors": "^2.8.8",
         "bson-ext": "^4.0.2",
